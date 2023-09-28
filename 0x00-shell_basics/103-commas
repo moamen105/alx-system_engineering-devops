@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -Ap1 | sort -d | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/, /g' -e 's/$/\n/'
+ls -map
